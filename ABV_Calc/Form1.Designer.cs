@@ -56,11 +56,13 @@
             button2 = new Button();
             button1 = new Button();
             panel3 = new Panel();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel4.SuspendLayout();
             panel5.SuspendLayout();
             panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label5
@@ -255,6 +257,7 @@
             // 
             // panel5
             // 
+            panel5.BackColor = Color.Transparent;
             panel5.Controls.Add(label10);
             panel5.Controls.Add(calculatedABV);
             panel5.Controls.Add(panel2);
@@ -266,7 +269,7 @@
             panel5.Controls.Add(label7);
             panel5.Controls.Add(label6);
             panel5.Controls.Add(label5);
-            panel5.Location = new Point(411, 82);
+            panel5.Location = new Point(14, 143);
             panel5.Name = "panel5";
             panel5.Size = new Size(331, 261);
             panel5.TabIndex = 24;
@@ -322,22 +325,33 @@
             // 
             // panel3
             // 
+            panel3.BackColor = Color.Transparent;
             panel3.Controls.Add(button3);
             panel3.Controls.Add(button2);
             panel3.Controls.Add(button1);
-            panel3.Location = new Point(427, 344);
+            panel3.Location = new Point(14, 410);
             panel3.Name = "panel3";
-            panel3.Size = new Size(313, 66);
+            panel3.Size = new Size(331, 66);
             panel3.TabIndex = 31;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(397, 143);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(548, 333);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 32;
+            pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(931, 641);
+            ClientSize = new Size(1086, 633);
+            Controls.Add(pictureBox1);
             Controls.Add(panel3);
             Controls.Add(richTextBox1);
             Controls.Add(label11);
@@ -355,6 +369,7 @@
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -387,5 +402,6 @@
         private Label label11;
         private RichTextBox richTextBox1;
         private Panel panel3;
+        private PictureBox pictureBox1;
     }
 }

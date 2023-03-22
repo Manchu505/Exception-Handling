@@ -61,7 +61,7 @@
     <value>This calculator determines the ABV of your beer based on the gravity change before and after fermentation. If you took an original gravity reading (or had estimated OG), and also took a final gravity (FG) reading prior to adding priming sugar at bottling you can find out your batch's alcohol by volume ABV</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAt0AAAHzCAIAAABzGzZ+AAABgWlDQ1BzUkdCIElFQzYxOTY2LTIuMQAA
         KM+VkbtLA0EQh78Yg+KDCApaWBwSrYxEhaCNYESiECTECL6a5PISknjcRURsBduAgmjjq9C/QFvBWhAU
